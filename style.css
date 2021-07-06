@@ -8,13 +8,13 @@ h1{
 .tomato{
     color: tomato;
 }
-section{
+.flexible-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 .half-width{
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 20%;
     
     padding-left: 10%;
 }
@@ -37,5 +37,40 @@ section{
     background-repeat:no-repeat;
     background-position:  right;
      
+}
+.recipies{
+    width: 80%;   
+    padding-left: 10%;
+}
+.has-color{
+    color:#575252 ;
+}
+.experience-item{
     
+    margin: 10%;
+    width: 50%;
+    margin-left: 0%;
+    margin-right: 5%;    
+    padding-left: 2%;
+    box-shadow: 10px 10px 10px rgb(230, 219, 219);
+    border-radius: 50px;
+   
+}
+.images3{
+    
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+
+}
+.flex-container > div {
+    width: 50%;
+    display:inline-table;
+    margin-block:40px ;
+    
+    box-shadow: 10px 10px    rgb(230, 219, 219);
+    border-radius: 50px;
+  
+  }
+.box{
+    background-color: black;
 }
