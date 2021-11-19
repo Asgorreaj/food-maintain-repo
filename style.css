@@ -29,8 +29,9 @@ h1{
     font-weight: 700;
     border-radius: 50px;
 }
-.top-banner{
-    background-image: ;
+.top-banner
+{
+    background-image: repeating-radial-gradient();
 }
 .dream-big{
     background-image: url(images/shapes/Frame\ 57.jpg);
